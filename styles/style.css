@@ -131,3 +131,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+.content__card-link {
+  text-decoration: none;
+  color: #FFF;
+}
