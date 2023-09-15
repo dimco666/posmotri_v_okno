@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   padding: 133px 30px;
@@ -64,9 +64,9 @@ ol {
   width: 711px;
   margin-top: 78px;
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .result__video {
@@ -93,23 +93,23 @@ gap: 16px;
 }
 
 .title {
-  color: #FFF;
-font-family: Oswald;
-font-size: 75px;
-font-style: normal;
-font-weight: 700;
-line-height: 94%;
-text-transform: uppercase;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%;
+  text-transform: uppercase;
 }
 
 .content__accent {
   color: #545050;
-font-family: Oswald;
-font-size: 75px;
-font-style: normal;
-font-weight: 700;
-line-height: 94%; /* 70.5px */
-text-transform: uppercase;
+  font-family: Oswald;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%; /* 70.5px */
+  text-transform: uppercase;
 }
 
 .content__video-card {
@@ -123,7 +123,7 @@ text-transform: uppercase;
 
 .content__video-card:active {
   background-color: #545050;
-} 
+}
 
 .content__video-card:focus {
   border: 1px solid #fff;
@@ -131,7 +131,7 @@ text-transform: uppercase;
 
 .content__video-card-thumbnail {
   width: 194px;
-height: 103px;
+  height: 103px;
 }
 
 .content__video-card-description-container {
@@ -140,37 +140,37 @@ height: 103px;
 }
 
 .search-form__fieldset-title {
-  color: #FFF;
-font-family: Fira Sans Condensed;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .content__card-link {
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
   margin: 2px;
 }
 
 .content__video-card-title {
-  color: #FFF;
-font-family: Oswald;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: 100%; /* 30px */
-text-transform: uppercase;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 30px */
+  text-transform: uppercase;
 }
 
 .content__video-card-description {
-  color: #FFF;
-font-family: Fira Sans Condensed;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 16.2px; /* 90% */
+  color: #fff;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.2px; /* 90% */
 }
 
 .content__video-card-description-container {
@@ -201,12 +201,12 @@ line-height: 16.2px; /* 90% */
   display: flex;
   width: fit-content;
   cursor: pointer;
-  color: #FFF;
-font-family: Fira Sans Condensed;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .search-form__label:hover {
@@ -218,7 +218,7 @@ line-height: normal;
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   border: none;
 }
 
@@ -252,20 +252,20 @@ line-height: normal;
 
 .search-form__textfield {
   appearance: none;
-  border-top: 1px solid #FFF;
-border-bottom: 1px solid #FFF;
-border-right: 0;
-border-left: 0;
-background-color: inherit;
-font-family: inherit;
-color: inherit;
-width: 211px;
-padding: 2.5px 14px 2.5px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-right: 0;
+  border-left: 0;
+  background-color: inherit;
+  font-family: inherit;
+  color: inherit;
+  width: 211px;
+  padding: 2.5px 14px 2.5px 0;
 }
 
 .search-form__textfield:active {
-  border-left: 1px solid #FFF;
-  border-right: 1px solid #FFF;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
 }
 
 .search-form__textfield:focus {
@@ -280,12 +280,12 @@ padding: 2.5px 14px 2.5px 0;
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   background-color: inherit;
   margin-right: 5px;
 }
 
-input[type='checkbox']:checked + .search-form__pseudo-checkbox {
+input[type="checkbox"]:checked + .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
   border: 1px solid #000;
