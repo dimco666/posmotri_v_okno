@@ -119,6 +119,9 @@ ol {
 .content__video-card:active {
   background-color: #545050;
 }
+.content__card-link_current{
+  background-color: #545050;
+}
 
 .content__video-card:focus {
   border: 1px solid #fff;
@@ -147,6 +150,7 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #fff;
+  display: block;
 }
 
 .content__video-card-title {
@@ -268,8 +272,12 @@ ol {
 }
 
 .search-form__submit-button {
-  height: 34px;
+  min-height: 34px;
   align-self: end;
+}
+
+.search-form__submit-button:focus {
+  outline: 2px solid #fff;
 }
 
 .search-form__pseudo-checkbox {
@@ -288,13 +296,12 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox {
   outline: 1px solid #fff;
 }
 
-.more-button-template {
-  position: relative;
+.content__card-link {
+  border: none;
 }
 
-.more-button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.content__card-link:has(:focus-visible) {
+  outline: 1px solid #fff;
+  border: none;
+  margin: 2px;
 }
