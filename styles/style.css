@@ -307,14 +307,17 @@ line-height: normal;
   border: 1px solid #fff;
   background-color: inherit;
   margin-right: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.search-form__checkbox[type="checkbox"]:checked + .search-form__pseudo-checkbox {
-  width: 19px;
-  height: 19px;
-  border: 1px solid #000;
+.search-form__checkbox[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
   background-color: #fff;
-  outline: 1px solid #fff;
 }
 
 .content__card-link:focus {
