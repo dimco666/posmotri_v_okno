@@ -220,12 +220,12 @@ height: 386px;
   line-height: normal;
 }
 
-.search-form__label:hover {
+.search-form__label:hover:not(.search-form__label:has(.search-form__textfield)) {
   text-decoration: underline;
 }
 
 .search-form__label:focus {
-  border: none;
+  outline: none;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -309,7 +309,7 @@ line-height: normal;
   margin-right: 5px;
 }
 
-input[type="checkbox"]:checked + .search-form__pseudo-checkbox {
+.search-form__checkbox[type="checkbox"]:checked + .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
   border: 1px solid #000;
